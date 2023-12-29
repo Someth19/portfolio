@@ -1,0 +1,195 @@
+@media(max-width:1100px){
+    .contactflex{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        width: auto;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    .paramainflex{
+        left: 23%;
+    }
+}
+@media (max-width: 992px){
+    
+    
+    .sectionflex{
+        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: blueviolet;
+        height: auto;
+        padding: 120px;
+        gap: 80px;
+    }
+    nav{
+        background: white;
+    }
+    nav .mainmenu li a{
+        color: blueviolet;
+        font-size: 18px;
+    }
+    .image{
+        margin-left: 10px;
+    }
+    
+    .contactinfo{
+        width: 100%;
+    }
+    .download{
+        text-align: center;
+    }
+    .conlogo{
+        text-align: center;
+        margin-right: 31px;
+    }
+    .center{
+        text-align: center;
+    }
+    .bgAnimation{
+        display: none;
+    }
+}
+@media(max-width:870px){
+    nav .mainmenu{
+        height: 50vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainmenu li a{
+        color: blueviolet;
+    }
+    nav .mainmenu  .closemenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openmenu{
+        display: block;
+    }
+    nav .mainmenu li a:hover{
+        background: none;
+        color: rgb(46, 44, 44);
+        
+    }
+    .eduflex{
+        flex-direction: column;
+    }
+    .eduinfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .eduinfo h2{
+        text-align: center;
+    }
+    .expinfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .expinfo h2{
+        text-align: center;
+    }
+    .projectflex{
+        flex-direction: column;
+    }
+    .imagecenter{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutmeflex{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:600px){
+    .contactboxinfo input{
+        width: 300px;
+    }
+    .contactboxinfo textarea{
+        max-width: 300px;
+        min-width: 300px;
+    }
+    .info{
+        padding: 30px;
+        width: auto;
+    }
+    .info h1{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .info h3{
+        font-size: 20px;
+    }
+    .info p{
+        font-size: 16px;
+        
+    }
+    .conlogo a i{
+        margin-top: 20px;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    .image img{
+        width: 200px;
+        height: 200px;
+    }
+    .sectionflex{
+        padding: 120px 15px;
+    }
+    .skillbar{
+        flex-direction: column;
+    }
+    .skill-box{
+        width: 100%;
+    }
+    .myproject h1{
+        font-size: 35px;
+    }
+    .contacthead{
+        font-size: 35px;
+    }
+}
+@media(max-width:445px){
+    .contactboxinfo input{
+        width: 250px;
+    }
+    .contactboxinfo textarea{
+        max-width: 250px;
+        min-width: 250px;
+    }
+    .imageproject {
+        width: 250px;
+    }
+    .imageproject img{
+        height: 200px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .projectbutton{
+        font-size: 15px;
+        padding: 5px 10px;
+        height: 35px;
+    }
+    .projectbutton i{
+        margin-left: 0;
+    }
+}
