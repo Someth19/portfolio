@@ -105,7 +105,8 @@ nav a:hover{
 	height: 350px;
 	animation: animate1 3s;
 }
-@keyframes animate {
+/* remove duplicate keyframes */
+/* @keyframes animate {
 	0% {
 		transform: translateX(-100px);
 		opacity: 0;
@@ -113,7 +114,7 @@ nav a:hover{
 	100% {
 		transform: translateX(100px) rotate(360deg);
 	}
-}
+} */
 /* @keyframes animate1{
     0%{
         transform: rotate(220deg);
