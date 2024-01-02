@@ -1,224 +1,210 @@
-.aboutmediv{
-    background-color: azure;
-    height: auto;
-    padding: 80px 8% 80px 8% ;
+.aboutmediv {
+	background-color: azure;
+	height: auto;
+	padding: 80px 8% 80px 8%;
 }
-.aboutmehead{
-    text-align: center;
-    /* color: rgb(145, 55, 229); */
-    color: bl;
-    margin: 0;
-    font-size: 40px;
-    letter-spacing: 1px;
-    font-weight: bolder;
-    /* text-shadow: 1px 1px 20px rgb(145, 55, 229); */
+.aboutmehead {
+	text-align: center;
+	/* color: rgb(145, 55, 229); */
+	color: bl;
+	margin: 0;
+	font-size: 40px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	/* text-shadow: 1px 1px 20px rgb(145, 55, 229); */
 }
-.aboutmediv img{
-    width: 300px;
-    height: 400px;
-    margin-top: 100px;
-    border: 3px solid white;
-    background-color: rgb(196, 151, 238);
-    padding: 10px;
-    box-shadow: 5px 5px 20px rgb(145, 55, 229);
-    border-radius: 10px;
+.aboutmediv img {
+	width: 300px;
+	height: 400px;
+	margin-top: 100px;
+	border: 3px solid white;
+	background-color: rgb(196, 151, 238);
+	padding: 10px;
+	box-shadow: 5px 5px 20px rgb(145, 55, 229);
+	border-radius: 10px;
 }
-.aboutmeflex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: 30px;
+.aboutmeflex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin-top: 30px;
 }
-.aboutmeinfo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 0 0 6%;
+.aboutmeinfo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 0 0 6%;
 }
-.aboutmeinfo h1{
-    /* color: rgb(164, 118, 207); */
-    color: black;
-    font-size: 50px;
+.aboutmeinfo h1 {
+	/* color: rgb(164, 118, 207); */
+	color: black;
+	font-size: 50px;
 }
 .aboutmeinfo p {
-    /* color: rgb(164, 118, 207); */
-    color: black;
-    font-size: 20px;
-    line-height: 30px;
+	/* color: rgb(164, 118, 207); */
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
 }
-.skillbar{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 50px;
-    position: relative;
-    justify-content: space-between;
-}
-
-
-.skill-box{
-   
-    width: 40%;
-    height: auto;
-    text-align: left;
-}
-.title{
-    display: block;
-    color: rgb(127, 82, 169);
-    font-size: 20px;
-    text-align: left;
-}
-.skill-bar{
-    width: 100%;
-    border: 1px solid gray;
-    border-radius: 6px;
-    height: 8px;
-    margin-top: 10px;
-}
-.skill-per{
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 85%;
-    border-radius: 6px;
-    background-color:blueviolet;
-    animation: animate 0.8s ease-in-out forwards;
-
-}
-@keyframes animate{
-    0%{
-        opacity:0;
-        width:0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-.tooltip{
-    position: absolute;
-    right: -14px;
-    background-color: blueviolet;
-    top:-30px ;
-    color: white;
-    font-size: 13px;
-    font-weight: 500;
-    padding: 2px 5px;
-    border-radius: 3px;
-    
+.skillbar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin-top: 50px;
+	position: relative;
+	justify-content: space-between;
 }
 
-.tooltip::before{
-
-    transform: translateX(-50%) rotate(45deg);
+.skill-box {
+	width: 40%;
+	height: auto;
+	text-align: left;
 }
-.skill-per1{
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 80%;
-    border-radius: 6px;
-    background-color:blueviolet;
-    animation: animate 0.8s ease-in-out forwards;
-
+.title {
+	display: block;
+	color: rgb(127, 82, 169);
+	font-size: 20px;
+	text-align: left;
 }
-@keyframes animate{
-    0%{
-        opacity:0;
-        width:0;
-    }
-    100%{
-        opacity: 1;
-    }
+.skill-bar {
+	width: 100%;
+	border: 1px solid gray;
+	border-radius: 6px;
+	height: 8px;
+	margin-top: 10px;
 }
-.tooltip1{
-    position: absolute;
-    right: -14px;
-    background-color: blueviolet;
-    top:-30px ;
-    color: white;
-    font-size: 13px;
-    font-weight: 500;
-    padding: 2px 5px;
-    border-radius: 3px;
-    
+.skill-per {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 85%;
+	border-radius: 6px;
+	background-color: blueviolet;
+	animation: animate 0.8s ease-in-out forwards;
 }
-
-.tooltip1::before{
-
-    transform: translateX(-50%) rotate(45deg);
+@keyframes animate {
+	0% {
+		opacity: 0;
+		width: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
-.skill-per2{
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 60%;
-    border-radius: 6px;
-    background-color:blueviolet;
-    animation: animate 0.8s ease-in-out forwards;
-
-}
-@keyframes animate{
-    0%{
-        opacity:0;
-        width:0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-.tooltip2{
-    position: absolute;
-    right: -14px;
-    background-color: blueviolet;
-    top:-30px ;
-    color: white;
-    font-size: 13px;
-    font-weight: 500;
-    padding: 2px 5px;
-    border-radius: 3px;
-    
+.tooltip {
+	position: absolute;
+	right: -14px;
+	background-color: blueviolet;
+	top: -30px;
+	color: white;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 2px 5px;
+	border-radius: 3px;
 }
 
-.tooltip2::before{
-
-    transform: translateX(-50%) rotate(45deg);
+.tooltip::before {
+	transform: translateX(-50%) rotate(45deg);
 }
-.skill-per3{
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 60%;
-    border-radius: 6px;
-    background-color:blueviolet;
-    animation: animate 0.8s ease-in-out forwards;
-
+.skill-per1 {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 80%;
+	border-radius: 6px;
+	background-color: blueviolet;
+	animation: animate 0.8s ease-in-out forwards;
 }
-@keyframes animate{
-    0%{
-        opacity:0;
-        width:0;
-    }
-    100%{
-        opacity: 1;
-    }
+@keyframes animate {
+	0% {
+		opacity: 0;
+		width: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
-.tooltip3{
-    position: absolute;
-    right: -14px;
-    background-color: blueviolet;
-    top:-30px ;
-    color: white;
-    font-size: 13px;
-    font-weight: 500;
-    padding: 2px 5px;
-    border-radius: 3px;
-    
+.tooltip1 {
+	position: absolute;
+	right: -14px;
+	background-color: blueviolet;
+	top: -30px;
+	color: white;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 2px 5px;
+	border-radius: 3px;
 }
 
-.tooltip3::before{
+.tooltip1::before {
+	transform: translateX(-50%) rotate(45deg);
+}
+.skill-per2 {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 60%;
+	border-radius: 6px;
+	background-color: blueviolet;
+	animation: animate 0.8s ease-in-out forwards;
+}
+@keyframes animate {
+	0% {
+		opacity: 0;
+		width: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.tooltip2 {
+	position: absolute;
+	right: -14px;
+	background-color: blueviolet;
+	top: -30px;
+	color: white;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
 
-    transform: translateX(-50%) rotate(45deg);
+.tooltip2::before {
+	transform: translateX(-50%) rotate(45deg);
+}
+.skill-per3 {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 60%;
+	border-radius: 6px;
+	background-color: blueviolet;
+	animation: animate 0.8s ease-in-out forwards;
+}
+@keyframes animate {
+	0% {
+		opacity: 0;
+		width: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.tooltip3 {
+	position: absolute;
+	right: -14px;
+	background-color: blueviolet;
+	top: -30px;
+	color: white;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+
+.tooltip3::before {
+	transform: translateX(-50%) rotate(45deg);
 }

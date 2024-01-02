@@ -1,54 +1,51 @@
-
-nav{
-    background:linear-gradient(-90deg,rgb(145, 55, 229)65%, white 35%);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    padding: 0 8%;
-    top: 0;
-    z-index: 99;
-    height: 70px;
+nav {
+	background: linear-gradient(-90deg, rgb(145, 55, 229) 65%, white 35%);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	padding: 0 8%;
+	top: 0;
+	z-index: 99;
+	height: 70px;
 }
-nav .mainmenu{
-    display: flex;
-    list-style: none;
-
+nav .mainmenu {
+	display: flex;
+	list-style: none;
 }
-nav .mainmenu li a{
-    display: inline-block;
-    padding: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+nav .mainmenu li a {
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
 }
 
-nav .mainmenu li a:hover{
-    color: rgb(46, 44, 44);
+nav .mainmenu li a:hover {
+	color: rgb(46, 44, 44);
 }
-nav .openmenu{
-    font-size: 1.5rem;
-    margin: 20px;
-    display: none;
-    cursor: pointer;
-    color: blueviolet;
+nav .openmenu {
+	font-size: 1.5rem;
+	margin: 20px;
+	display: none;
+	cursor: pointer;
+	color: blueviolet;
 }
 nav .mainmenu .closemenu {
-    font-size: 1.5rem;
-    display: none;
-    cursor: pointer;
-    color: blueviolet;
+	font-size: 1.5rem;
+	display: none;
+	cursor: pointer;
+	color: blueviolet;
 }
-.sticky .mainmenu .closemenu{
-    color: blueviolet;
+.sticky .mainmenu .closemenu {
+	color: blueviolet;
 }
-nav .logo{
-    /* margin: 6px; */
-    font-size: 25px;
-    cursor: pointer;
-    color: blueviolet;
+nav .logo {
+	/* margin: 6px; */
+	font-size: 25px;
+	cursor: pointer;
+	color: blueviolet;
 }
-

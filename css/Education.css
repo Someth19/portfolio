@@ -1,40 +1,38 @@
-.education{
-    padding: 80px 8%;
-    
+.education {
+	padding: 80px 8%;
 }
-.educontents{
-    padding: 0px 30px;
-    border-left: 2px solid #bababa;
+.educontents {
+	padding: 0px 30px;
+	border-left: 2px solid #bababa;
 }
-.eduflex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.eduflex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-.eduflex h2{
-    font-size: 40px;
-    /* color: rgb(145, 55, 229); */
-    color: black;
-    
+.eduflex h2 {
+	font-size: 40px;
+	/* color: rgb(145, 55, 229); */
+	color: black;
 }
-.eduinfo{
-    display: flex;
-    flex-direction: column;
-    width: 45%;
+.eduinfo {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
 }
-.expinfo{
-    display: flex;
-    flex-direction: column;
-    width: 45%;
+.expinfo {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
 }
-.box{
-    border: 1px solid transparent;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color:  rgb(145, 55, 229);
-    transition: 0.6s ease-in-out;
+.box {
+	border: 1px solid transparent;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: rgb(145, 55, 229);
+	transition: 0.6s ease-in-out;
 }
 /* .educontents .box::before{
     content: '';
@@ -47,122 +45,120 @@
     background-color: blueviolet;
     border: 2px solid ;
 } */
-.box h3{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 1px 1px 30px  rgb(145, 55, 229);
-    
+.box h3 {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 30px rgb(145, 55, 229);
 }
-.box h4,p{
-    color: white;
+.box h4,
+p {
+	color: white;
 }
-.box:hover{
-    box-shadow: 0px 5px 12px 0px #6d6b6b;
-    
+.box:hover {
+	box-shadow: 0px 5px 12px 0px #6d6b6b;
 }
-.skills{
-    margin:100px 0px 50px 0;
+.skills {
+	margin: 100px 0px 50px 0;
 }
-.skills h1{
-    text-align: center;
-    font-size: 40px;
-    /* color: rgb(145, 55, 229); */
-    font-weight: bolder;
-    letter-spacing: 1px;
+.skills h1 {
+	text-align: center;
+	font-size: 40px;
+	/* color: rgb(145, 55, 229); */
+	font-weight: bolder;
+	letter-spacing: 1px;
 }
-.contactmain{
-    padding: 80px 8%;
+.contactmain {
+	padding: 80px 8%;
 }
-.para{
-    color: black;
+.para {
+	color: black;
 }
-.contactinfo{
-    width: 50%;
+.contactinfo {
+	width: 50%;
 }
 .contactinfo .contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: 100px;
-    height: 50px;
-    background-color: blueviolet;
-    border-radius: 20px;
-    font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100px;
+	height: 50px;
+	background-color: blueviolet;
+	border-radius: 20px;
+	font-size: 18px;
 }
-.contacthead{   
-    font-size: 50px;
-    font-weight: bolder;
+.contacthead {
+	font-size: 50px;
+	font-weight: bolder;
 }
-.contactmain .contactflex{
-    display: flex;
-    flex-wrap: wrap;
-    /* gap: 30px; */
-    min-width: 100%;
-    
-    justify-content: space-between;
+.contactmain .contactflex {
+	display: flex;
+	flex-wrap: wrap;
+	/* gap: 30px; */
+	min-width: 100%;
+
+	justify-content: space-between;
 }
-.contactbox{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.contactbox {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
-.contactbox textarea{
-    max-width: 400px;
-    min-width: 400px;
-    min-height: 70px;
-    border-radius: 10px;
-    padding: 10px;
+.contactbox textarea {
+	max-width: 400px;
+	min-width: 400px;
+	min-height: 70px;
+	border-radius: 10px;
+	padding: 10px;
 }
-.contactboxinfo{
-    /* display: flex; */
-    width: 100%;
-    justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 40px;
+.contactboxinfo {
+	/* display: flex; */
+	width: 100%;
+	justify-content: space-between;
+	gap: 30px;
+	margin-bottom: 40px;
 }
-.contactboxinfo input{
-    width: 400px;
-    height: 40px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 0.5px solid gray;
-    
+.contactboxinfo input {
+	width: 400px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 0.5px solid gray;
 }
 
-.contactboxinfo h3{
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 20px;
-    color: white;
+.contactboxinfo h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 20px;
+	color: white;
 }
-.contactbutton button{
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    border-radius: 15px;
-    font-size: 17px;
-    color: white;
-    background-color:white;
-    border: none ;
-    margin-right: 20px;
-    color: black;
+.contactbutton button {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 17px;
+	color: white;
+	background-color: white;
+	border: none;
+	margin-right: 20px;
+	color: black;
 }
-.contactbutton button:hover{
-    background-color: rgb(46, 44, 44);
-    transition: 0.5s;
-    color: white;
+.contactbutton button:hover {
+	background-color: rgb(46, 44, 44);
+	transition: 0.5s;
+	color: white;
 }
-.cont{
-    background-color: blueviolet;
-    border-radius: 10px;
-    padding: 30px;
+.cont {
+	background-color: blueviolet;
+	border-radius: 10px;
+	padding: 30px;
 }
 footer {
-    background-color: blueviolet;
-    color: white;
-    text-align: center;
-    padding: 5px;
+	background-color: blueviolet;
+	color: white;
+	text-align: center;
+	padding: 5px;
 }
