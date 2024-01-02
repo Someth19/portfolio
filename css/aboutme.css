@@ -1,12 +1,12 @@
 .aboutmediv {
 	background-color: azure;
-	height: auto;
+	/* height: auto; */
 	padding: 80px 8% 80px 8%;
 }
 .aboutmehead {
 	text-align: center;
 	/* color: rgb(145, 55, 229); */
-	color: bl;
+	/* color: bl; */
 	margin: 0;
 	font-size: 40px;
 	letter-spacing: 1px;
